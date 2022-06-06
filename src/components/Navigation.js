@@ -2,7 +2,7 @@ import React from 'react';
 // Here we import the Navbar.css file to grant access to some additional classNames
 import '../styles/Navigation.css';
 
-function NavTabs({ currentPage, handlePageChange }) {
+function Navigation({ currentPage, handlePageChange }) {
   return (
     <ul className="nav nav-tabs">
       <li className="nav-item">
@@ -49,4 +49,4 @@ function NavTabs({ currentPage, handlePageChange }) {
   );
 }
 
-export default NavTabs;
+export default Navigation;
