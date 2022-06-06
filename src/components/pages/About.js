@@ -2,13 +2,13 @@ import React from 'react';
 
 export default function About() {
   return (
-    <div class="container-fluid">
-      <div class="row justify-content-evenly gx-3">
-        <div class="col-lg-2" id="about">
+    <div className="container-fluid">
+      <div className="row justify-content-evenly gx-3">
+        <div className="col-lg-2" id="about">
           <h3>About Me </h3>
         </div>
-        <div class="col" id="greeting">
-          <p style="color: #f7f9fb">
+        <div className="col" id="greeting">
+          <p>
             Hello! My name is Edward Lopus and I am an aspiring coder. I
             graduated from Florida State University with a B.S. in Statistics
             and a minor in Business. During my time at Florida State I utilized
